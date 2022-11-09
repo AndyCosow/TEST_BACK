@@ -3,7 +3,7 @@ const app = express()
 const cors = require("cors")
 
 // app.use(cors())
-app.use(cors({origin: "http://localhost:3001"}))
+app.use(cors({origin: "http://68.183.11.247:4006"}))
 
 app.use(express.json())
 
